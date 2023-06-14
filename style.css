@@ -1,9 +1,18 @@
 nav{
-    background-color: #1F2937;
     display: flex;
-    color: white;
     justify-content: space-around;
     align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.hero, nav{
+    background-color: #1F2937;
+    color: #E5E7EB;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -14,8 +23,8 @@ nav{
     color: #F9FAF8;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 10px;
+.hero h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
