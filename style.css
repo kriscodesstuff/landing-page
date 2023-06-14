@@ -1,0 +1,21 @@
+nav{
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
